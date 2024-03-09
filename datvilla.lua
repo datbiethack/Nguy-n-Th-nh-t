@@ -2902,7 +2902,7 @@ end
 
 local ToggleChestTween = Tabs.Main:AddToggle("ToggleChestTween", {
     Title = "Auto Chest [Tween]",
-    Description = "Nhặt Rương [Bay]", 
+    Description = "Nhặt Đạt [Bay]", 
     Default = false })
 ToggleChestTween:OnChanged(function(Value)
     AutoFarmChest = Value
